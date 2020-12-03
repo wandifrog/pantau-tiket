@@ -6,19 +6,18 @@ Aplikasi web ini bertujuan untuk memantau harga tiket pesawat secara otomatis da
 
 Teknologi-teknologi web yang saya gunakan pada project ini meliputi : 
 1. Vuejs
-- Vue Component (membuat tampilan yang reuseable)
-- Vue CLI (config Webpack, Vue Loader, Babel, Minify, dll)
-- Vue Router (membuat SPA)
-- Vuex (untuk management data antar component)
-- Axios (Sama seperti AJAX jQuery)
+- Vue Component
+- Vue CLI
+- Vue Router
+- Vuex
+- Axios
 
 2. Firebase
-- Database (Menyimpan data seperti nama, email, nomor telepon, destinasi tiket yang dipantau, dan menyimpan token dari FCM)
-- Authentication (untuk autentikasi melalui akun Gmail, Facebook, Twitter, ataupun autentikasi melalui nomor telepon)
-- Hosting (untuk hosting dan otomatis HTTPS)
+- Database
+- Authentication
+- Hosting
 - Cloud Messaging (untuk mengirim notifikasi ke pengguna)
-- Cloud Function (untuk backendnya, nantinya semua logic ditaruh disini seperti membuat interval pengecekan tiket, melakukan http request, database trigger, dll.
-Cloud Functions layaknya ExpressJS namun bisa digunakan tanpa perlu repot2 maintenance maupun config pada server)
+- Cloud Function (untuk interval pengecekan tiket, melakukan http request, database trigger, dll)
 
 3. Service Worker (untuk offline fallback, offline caching, dll)
 
