@@ -1,4 +1,4 @@
-# Pantau Tiket
+# Pantau Tiket (discontinued)
 
 ![alt text](./pantautiket.jpg)
 
